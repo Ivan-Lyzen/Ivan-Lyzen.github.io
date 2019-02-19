@@ -1,0 +1,249 @@
+/* General settings*/
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial';
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+a {
+    color: #2780e3;
+    text-decoration: none;
+    border-bottom: 1px solid #2780e3;
+}
+
+p {
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #252525;
+    line-height: 22px;
+}
+
+code {
+    font-family: 'Courier New';
+    background-color: #f0e6d6;
+    padding: 1px 5px;
+    box-sizing: border-box;
+}
+
+mark {
+    background-color: #ffff00;
+}
+
+kbd {
+    background-color: #eadcea;
+    padding: 1px 5px;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+samp {
+    background-color: #eadcdc;
+    padding: 1px 5px;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-family: 'Arial';
+    font-size: 16px;
+    line-height: 22px;
+    color: #252525;
+}
+
+pre {
+    font-family: 'Courier New';
+    font-size: 16px;
+    line-height: 22px;
+    background-color: #f0e6d6;
+    padding: 12px 14px;
+}
+
+dt {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    color: #252525;
+}
+
+dd {
+    font-family: 'Arial';
+    font-size: 16px;
+    line-height: 22px;
+    color: #252525;
+    margin-bottom: 16px;
+}
+
+/*# end General settings*/
+
+
+.headline h1 {
+    font-size: 42px;
+    margin-top: 42px;
+    color: #252525;
+}
+
+.headline h2 {
+    font-size: 36px;
+    margin-top: 36px;
+    color: #252525;
+}
+
+.headline h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #252525;
+}
+
+.headline h4 {
+    font-size: 26px;
+    margin-top: 26px;
+    color: #252525;
+}
+
+.headline h5 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #252525;
+}
+
+.headline h6 {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #252525;
+}
+
+
+
+
+/*Some Text*/
+.some_text h2 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.some_text p:nth-child(8) code {
+    background-color: #eadcea;
+}
+
+.some_text p:nth-child(9) code {
+    background-color: #eadcdc;
+}
+
+.blockquote {
+    padding: 13px 0;
+    background-color: #eadcea;
+    border-left: 4px solid #b496b4;
+}
+
+/*end Some Text*/
+
+/*LISTS*/
+.lists h2 {
+    margin-bottom: 26px;
+}
+
+.lists h4,
+.lists_num h4,
+.Definition_list h4 {
+    text-transform: unset;
+    font-size: 26px;
+}
+
+.lists ul li:last-child,
+.lists_num ol li:last-child {
+    list-style-type: none;
+}
+
+.lists ul li > ul {
+    list-style-type: square;
+    padding-top: 15px;
+}
+
+.lists ul li > ul li > ul li {
+    /*Путь к файлу с маркером*/
+    list-style-image: url(../img/lists.png);
+    list-style-position: outside;
+}
+
+/*LISTS NUM*/
+.lists_num ol li > ol {
+    padding-top: 15px;
+}
+
+.lists_num ol li > ol li > ol li:last-child {
+    list-style-type: inherit;
+}
+
+/*# ENDLISTS*/
+
+
+
+
+/*TABLE*/
+.Table {
+    margin-bottom: 65px;
+}
+
+.Table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+    width: 918px;
+    margin: 0 auto;
+    border: 1px solid #b496b4;
+}
+
+/* границы между строками */
+tr {
+    border: 1px solid #b496b4;
+}
+
+/* границы между столбцами */
+td,
+th {
+    font-family: 'Arial';
+    font-size: 16px;
+    line-height: 22px;
+    color: #252525;
+    border: 1px solid #b496b4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+th {
+    background-color: #eadcea;
+}
+
+td {
+    padding-left: 8px;
+}
+
+
+/*#end TABLE*/
