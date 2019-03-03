@@ -1,3 +1,6 @@
+@import 'fonts.css' all;
+
+
 /* General settings*/
 .container {
     max-width: 980px;
@@ -17,8 +20,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Arial';
-    font-weight: bold;
+    font-family: 'RobotoBold';
+    font-weight: 700;
     text-transform: capitalize;
 }
 
@@ -29,7 +32,7 @@ a {
 }
 
 p {
-    font-family: 'Arial';
+    font-family: 'RobotoRegular';
     font-size: 16px;
     color: #252525;
     line-height: 22px;
@@ -65,7 +68,7 @@ abbr {
 }
 
 blockquote {
-    font-family: 'Arial';
+    font-family: 'RobotoRegular';
     font-size: 16px;
     line-height: 22px;
     color: #252525;
@@ -80,16 +83,15 @@ pre {
 }
 
 dt {
-    font-family: 'Arial';
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'RobotoBoldItalic';
+    font-weight: 800;
     font-size: 16px;
     line-height: 22px;
     color: #252525;
 }
 
 dd {
-    font-family: 'Arial';
+    font-family: 'RobotoRegular';
     font-size: 16px;
     line-height: 22px;
     color: #252525;
@@ -228,7 +230,7 @@ tr {
 /* границы между столбцами */
 td,
 th {
-    font-family: 'Arial';
+    font-family: 'RobotoRegular';
     font-size: 16px;
     line-height: 22px;
     color: #252525;
